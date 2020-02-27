@@ -4,8 +4,8 @@ project ("GLFW")
     language("C")
     
     systemversion ("latest")
-    staticruntime ("On")
-    pic ("On")
+    staticruntime ("on")
+    pic ("on")
     
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
